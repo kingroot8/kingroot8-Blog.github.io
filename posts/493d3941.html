@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="计算机 网络安全 渗透测试">
+    <meta name="keywords" content="Docker介绍与安装教程, 计算机 网络安全 渗透测试">
     <meta name="description" content="专科 | 计算机科学与技术 | 网络安全">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>阿彪</title>
+    <title>Docker介绍与安装教程 | 阿彪</title>
 
     <link rel="icon" type="image/jpeg" href="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1.jpg">
 
@@ -510,12 +510,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021815.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/2982327.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">Docker介绍与安装教程</h1>
                 </div>
             </div>
         </div>
@@ -634,12 +634,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Docker/">
+                                <span class="chip bg-color">Docker</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Docker/" class="post-category">
+                                Docker
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -648,28 +661,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-11-22
+                    2022-11-23
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-11-22
+                    2022-11-23
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    5 分
                 </div>
                 
 
@@ -687,7 +700,85 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                wvlc3L96QK
+                <h2 id="1-Docker概述"><a href="#1-Docker概述" class="headerlink" title="1. Docker概述"></a>1. Docker概述</h2><h3 id="1-基本介绍"><a href="#1-基本介绍" class="headerlink" title="(1)基本介绍"></a>(1)基本介绍</h3><p>Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。<br>Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。<br>容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。<br>Docker 从 17.03 版本之后分为 CE（Community Edition: 社区版） 和 EE（Enterprise Edition: 企业版），我们用社区版就可以了。官网：<a target="_blank" rel="noopener" href="https://docs.docker.com/">https://docs.docker.com/</a></p>
+<h2 id="2-应用场景"><a href="#2-应用场景" class="headerlink" title="(2)应用场景"></a>(2)应用场景</h2><p>Web 应用的自动化打包和发布。<br>自动化测试和持续集成、发布。<br>在服务型环境中部署和调整数据库或其他的后台应用。<br>从头编译或者扩展现有的 OpenShift 或 Cloud Foundry 平台来搭建自己的 PaaS 环境。</p>
+<h3 id="3-Docker-的优势"><a href="#3-Docker-的优势" class="headerlink" title="(3)Docker 的优势"></a>(3)Docker 的优势</h3><p>Docker 是一个用于开发，交付和运行应用程序的开放平台。Docker 使您能够将应用程序与基础架构分开，从而可以快速交付软件。借助 Docker，您可以与管理应用程序相同的方式来管理基础架构。通过利用 Docker 的方法来快速交付，测试和部署代码，您可以大大减少编写代码和在生产环境中运行代码之间的延迟。</p>
+<p>快速，一致地交付您的应用程序。Docker 允许开发人员使用您提供的应用程序或服务的本地容器在标准化环境中工作，从而简化了开发的生命周期。<br>容器非常适合持续集成和持续交付（CI / CD）工作流程，请考虑以下示例方案：<br>您的开发人员在本地编写代码，并使用 Docker 容器与同事共享他们的工作。<br>他们使用 Docker 将其应用程序推送到测试环境中，并执行自动或手动测试。<br>当开发人员发现错误时，他们可以在开发环境中对其进行修复，然后将其重新部署到测试环境中，以进行测试和验证。<br>测试完成后，将修补程序推送给生产环境，就像将更新的镜像推送到生产环境一样简单。</p>
+<p>响应式部署和扩展<br>Docker 是基于容器的平台，允许高度可移植的工作负载。Docker 容器可以在开发人员的本机上，数据中心的物理或虚拟机上，云服务上或混合环境中运行。<br>Docker 的可移植性和轻量级的特性，还可以使您轻松地完成动态管理的工作负担，并根据业务需求指示，实时扩展或拆除应用程序和服务。</p>
+<p>在同一硬件上运行更多工作负载<br>Docker 轻巧快速。它为基于虚拟机管理程序的虚拟机提供了可行、经济、高效的替代方案，因此您可以利用更多的计算能力来实现业务目标。Docker 非常适合于高密度环境以及中小型部署，而您可以用更少的资源做更多的事情。</p>
+<h2 id="2-虚拟化技术和容器化技术"><a href="#2-虚拟化技术和容器化技术" class="headerlink" title="2. 虚拟化技术和容器化技术"></a>2. 虚拟化技术和容器化技术</h2><p>虚拟化技术特点：1.资源占用多 2.冗余步骤多 3.启动很慢<br>容器化技术：容器化技术不是模拟的一个完整的操作系统<br>比较Docker和虚拟机的不同：</p>
+<p>传统虚拟机，虚拟出硬件，运行一个完整的操作系统，然后在这个系统上安装和运行软件。</p>
+<p>Docker容器内的应用直接运行在宿主机的内容，容器是没有自己的内核的，也没有虚拟硬件。</p>
+<p>每个容器都是相互隔离的，每个容器都有属于自己的文件系统，互不影响。</p>
+<p>容器化带来的好处：</p>
+<p><img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1648880093079-2e866324-99b4-425d-83c1-0c01a15f35a3.png"></p>
+<h2 id="3-Docker的基本组成"><a href="#3-Docker的基本组成" class="headerlink" title="3. Docker的基本组成"></a>3. Docker的基本组成</h2><p>Docker的基本组成图如下：</p>
+<p><img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1648880108163-2ee05a08-3661-4b32-b47a-6feee18df2e2.png"></p>
+<p>说明：</p>
+<p><img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1648880120687-d1b29fa6-1c47-4813-bc67-5a619e6cae57.png"></p>
+<h2 id="4-Docker的安装"><a href="#4-Docker的安装" class="headerlink" title="4. Docker的安装"></a>4. Docker的安装</h2><p>查看系统的内核：<br>uname -r<br>系统内核版本为3.10.0</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">[root@iZwz99sm8v95sckz8bd2c4Z ~]# uname -r
+3.10.0-957.21.3.el7.x86_64<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>查看系统配置<br>cat /etc/os-release</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">[root@bdyun ~]# cat /etc/os-release
+NAME="CentOS Linux"
+VERSION="7 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="7"
+PRETTY_NAME="CentOS Linux 7 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:7"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+CENTOS_MANTISBT_PROJECT="CentOS-7"
+CENTOS_MANTISBT_PROJECT_VERSION="7"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="7"<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>Docker的安装步骤：</p>
+<h3 id="1-卸载旧的版本"><a href="#1-卸载旧的版本" class="headerlink" title="(1). 卸载旧的版本"></a>(1). 卸载旧的版本</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum remove docker \
+             docker-client \
+             docker-client-latest \
+             docker-common \
+             docker-latest \
+             docker-latest-logrotate \
+             docker-logrotate \
+             docker-engine<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="2-下载需要的安装包"><a href="#2-下载需要的安装包" class="headerlink" title="(2). 下载需要的安装包"></a>(2). 下载需要的安装包</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum install -y yum-utils<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="3-设置镜像的仓库"><a href="#3-设置镜像的仓库" class="headerlink" title="(3). 设置镜像的仓库"></a>(3). 设置镜像的仓库</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo  #国外的地址
+
+#设置阿里云的Docker镜像仓库
+yum-config-manager \
+    --add-repo \
+    http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo  #国内的地址<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="4-更新yum软件包索引"><a href="#4-更新yum软件包索引" class="headerlink" title="(4). 更新yum软件包索引"></a>(4). 更新yum软件包索引</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum makecache fast<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="5-安装docker相关的配置"><a href="#5-安装docker相关的配置" class="headerlink" title="(5). 安装docker相关的配置"></a>(5). 安装docker相关的配置</h3><p>docker-ce 是社区版，docker-ee 企业版</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">yum install docker-ce docker-ce-cli containerd.io<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>出现了completed即安装成功。</p>
+<h3 id="6-启动Docker"><a href="#6-启动Docker" class="headerlink" title="(6). 启动Docker"></a>(6). 启动Docker</h3><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell"># 启动docker
+systemctl start docker
+# 查看当前版本号，是否启动成功
+docker version
+# 设置开机自启动
+systemctl enable docker<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>结果</p>
+<p><img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1648880294973-98f7cfac-eaf5-42e0-8239-a4537de93dd2.png"></p>
+<p>下载hello-world镜像进行测试</p>
+<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">docker run hello-world<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/1648880329872-00e34aa0-c341-4b50-ad79-fef38dcc414d.png"></p>
+<p>显示“Hello from Docker”即为安装成功</p>
+
                 
             </div>
             <hr/>
@@ -713,7 +804,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zyb32116.top/baidu_verify_xxxxxxx.html">https://zyb32116.top/baidu_verify_xxxxxxx.html</a>
+                    <a href="https://zyb32116.top/posts/493d3941.html">https://zyb32116.top/posts/493d3941.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -750,7 +841,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Docker/">
+                                    <span class="chip bg-color">Docker</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1225,34 +1320,45 @@ new Valine({
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/baidu_verify_xxxxxxx.html">
+                <a href="/posts/493d3941.html">
                     <div class="card-image">
                         
+                        <img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/2982327.jpg" class="responsive-img" alt="Docker介绍与安装教程">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021815.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">Docker介绍与安装教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            docker的安装。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-23
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            阿彪
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Docker/" class="post-category">
+                                    Docker
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Docker/">
+                        <span class="chip bg-color">Docker</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1260,22 +1366,21 @@ new Valine({
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/baidu_verify_xxxxxxx.html">
+                <a href="/posts/8f817624.html">
                     <div class="card-image">
                         
+                        <img src="https://blog-img-zyb.oss-cn-hangzhou.aliyuncs.com/blog-img/ZjedSc.png" class="responsive-img" alt="Minecraft基岩版服务器搭建教程">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/LuckyZmj/imgbed@master/posts/20200928021815.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
+                        <span class="card-title">Minecraft基岩版服务器搭建教程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            搭建MCBE服务器。
                         
                     </div>
                     <div class="publish-info">
@@ -1284,13 +1389,28 @@ new Valine({
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            阿彪
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/" class="post-category">
+                                    服务器篇
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/MC/">
+                        <span class="chip bg-color">MC</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+                        <span class="chip bg-color">服务器</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>

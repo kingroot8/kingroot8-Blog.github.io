@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zyb32116.top/posts/f1bd755e.html</loc>
+    <loc>https://zyb32116.top/posts/493d3941.html</loc>
     
     <lastmod>2022-11-22</lastmod>
     
@@ -10,6 +10,13 @@
   
   <url>
     <loc>https://zyb32116.top/posts/8f817624.html</loc>
+    
+    <lastmod>2022-11-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zyb32116.top/posts/f1bd755e.html</loc>
     
     <lastmod>2022-11-22</lastmod>
     
@@ -221,6 +228,13 @@
 
   
   <url>
+    <loc>https://zyb32116.top/tags/Docker/</loc>
+    <lastmod>2022-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zyb32116.top/tags/MC/</loc>
     <lastmod>2022-11-22</lastmod>
     <changefreq>daily</changefreq>
@@ -256,6 +270,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://zyb32116.top/categories/Docker/</loc>
+    <lastmod>2022-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://zyb32116.top/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AF%87/</loc>
